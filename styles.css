@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header {
+    background-color: rgb(129, 130, 130);
+    height: 80px;
+}
+
+header li {
+    display: inline;
+    margin: auto 10px;
+}
+
+header a {
+    color: rgb(234, 234, 234);
+    font-size: 22px;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgb(96, 179, 252);
+}
+
+header ul{
+    text-align: center;
+    padding-top: 22px;
+}
+
