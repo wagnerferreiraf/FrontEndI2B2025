@@ -3,6 +3,10 @@
     padding: 0;
     border: none;
 }
+/* .div3 a:hover {
+    transform: translateY(10px);
+    transition: .2s;
+} */
 
 header {
     background-color: rgb(129, 130, 130);
@@ -98,7 +102,3 @@ header ul{
     border-radius: 10px;    
 }
 
-.div3 a:hover {
-    transform: translateY(10px);
-    transition: .2s;
-}
