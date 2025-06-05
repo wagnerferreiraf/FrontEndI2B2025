@@ -1,0 +1,34 @@
+:root {
+    --corFundo: rgb(190, 190, 190);
+    --tamanhoLink: 1.5rem;
+}
+
+header {
+    background-color: var(--corFundo);
+    height: 100px;
+}
+
+
+a {
+    font-size: var(--tamanhoLink);
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+a:hover {
+    color: rgb(124, 124, 124);;
+}
+
+.menuPrincipal {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.menuPrincipal > li:hover {
+    transform: translateY(-6px);
+    transition: 0.4s;
+}
